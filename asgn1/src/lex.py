@@ -1,4 +1,9 @@
 import ply.lex as lex
+
+keywords = ['break','case','console','continue','delete','do','else','eval',
+	    'for','function','if','in','log','new','return','switch','this','typeof',
+	    'undefined','var','void','while','with']
+
 tokens = ['Plus','Minus','Times','Divide','Assign', 
 	'OpenBracket', 'CloseBracket', 'OpenParen','CloseParen','OpenBrace','CloseBrace',
 	'Identifier','Type','Return','IntConst','SemiColon']
